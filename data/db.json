@@ -1,0 +1,386 @@
+{
+  "rooms": [
+    {
+      "id": "room-standard",
+      "name": "Standard Room",
+      "category": "standard",
+      "description": "Comfortable guest room with air conditioning, Smart TV, high-speed Wi-Fi, and en-suite bathroom. Standard tariff: 1-2 guests at PKR 5,000/night; 3 guests at PKR 7,000/night.",
+      "longDescription": "The Standard Room at The Nest Stays provides a serene, spotless haven equipped with comfortable queen/double bedding, individual air conditioning, a modern Smart TV, high-speed Wi-Fi, fresh linens, plush towels, and daily housekeeping. Standard tariff: PKR 5,000/night for 1-2 guests; PKR 7,000/night for 3 guests. Applicable taxes included.",
+      "images": [
+        "/src/assets/images/room_deluxe_suite_1792648895537.jpg"
+      ],
+      "beds": "1 Queen Bed",
+      "maxGuests": 3,
+      "pricePerNight": 5000,
+      "taxesIncluded": true,
+      "amenities": [
+        "High-speed Wi-Fi",
+        "Smart TV",
+        "Air conditioning",
+        "Fresh towels",
+        "Toiletries",
+        "Wardrobe",
+        "Housekeeping"
+      ],
+      "active": true,
+      "sizeSqFt": 280,
+      "view": "Mufti Colony View",
+      "featured": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "book-1793011732452-o9ebw",
+      "reference": "TNS-ES8C42",
+      "roomId": "room-standard",
+      "roomName": "Standard Room",
+      "checkIn": "2026-10-27",
+      "checkOut": "2026-10-29",
+      "nights": 2,
+      "guestsCount": 2,
+      "guestName": "Test",
+      "guestPhone": "03231234567",
+      "expectedArrivalTime": "16:00 - 18:00",
+      "pricePerNight": 5000,
+      "taxesIncluded": true,
+      "subtotal": 10000,
+      "advanceRequired": 0,
+      "balanceDue": 10000,
+      "total": 10000,
+      "paymentMethod": "pay_at_property",
+      "paymentStatus": "pay_on_arrival",
+      "status": "confirmed",
+      "createdAt": "2026-10-26T10:48:52.452Z",
+      "updatedAt": "2026-10-26T10:48:52.452Z"
+    },
+    {
+      "id": "book-1793012170271-851g2",
+      "reference": "TNS-Q6NZ8J",
+      "roomId": "room-standard",
+      "roomName": "Standard Room",
+      "checkIn": "2026-11-20",
+      "checkOut": "2026-11-22",
+      "nights": 2,
+      "guestsCount": 3,
+      "guestName": "Tariq Mehmood",
+      "guestPhone": "0300 1234567",
+      "pricePerNight": 7000,
+      "extraGuestFee": 2000,
+      "taxesIncluded": true,
+      "subtotal": 14000,
+      "advanceRequired": 0,
+      "balanceDue": 14000,
+      "total": 14000,
+      "paymentMethod": "pay_at_property",
+      "paymentStatus": "pay_on_arrival",
+      "status": "confirmed",
+      "createdAt": "2026-10-26T10:56:10.271Z",
+      "updatedAt": "2026-10-26T10:56:10.271Z"
+    }
+  ],
+  "blockedDates": [],
+  "settings": {
+    "businessName": "The Nest Stays",
+    "tagline": "Where Comfort Meets Care",
+    "address": "Street Number 3, opposite UCP Mufti Town, near Qalma Chownk, Mufti Colony, Gujranwala, 52250, Pakistan",
+    "phone": "0300 1468362",
+    "whatsapp": "+923001468362",
+    "email": "info@theneststays.pk",
+    "checkInTime": "2:00 PM",
+    "checkOutTime": "12:00 PM",
+    "googleMapsUrl": "https://maps.google.com/?q=Street+Number+3+opposite+UCP+Mufti+Town+near+Qalma+Chownk+Mufti+Colony+Gujranwala+52250+Pakistan",
+    "policies": {
+      "cancellation": "Free cancellation up to 48 hours before check-in. Cancellations within 48 hours are subject to property policy. Applicable taxes are included in room tariff.",
+      "payment": "Applicable taxes are included in the room tariff. Pay at the property upon arrival, or transfer an advance deposit to property-configured accounts. All advance payments undergo manual verification.",
+      "houseRules": [
+        "Check-in is at 2:00 PM; Check-out is strictly at 12:00 PM",
+        "Valid Original CNIC / Passport required for all adult guests at check-in",
+        "Quiet hours observed after 11:00 PM for the peaceful comfort of all guests",
+        "Non-smoking rooms; designated outdoor areas available",
+        "In-room refreshments (mini-bar) are optional and charged separately upon consumption"
+      ]
+    },
+    "paymentConfig": {
+      "requireAdvance": false,
+      "advancePercentage": 50,
+      "allowPayAtProperty": true,
+      "payAtPropertyRequiresApproval": false,
+      "bank": {
+        "enabled": false,
+        "bankName": "",
+        "accountTitle": "",
+        "accountNumber": "",
+        "iban": "",
+        "instructions": "Please contact front desk or configure bank details in the owner portal."
+      },
+      "jazzCash": {
+        "enabled": false,
+        "accountTitle": "",
+        "accountNumber": "",
+        "tillId": "",
+        "instructions": "Please configure JazzCash instructions in the owner portal."
+      },
+      "easypaisa": {
+        "enabled": false,
+        "accountTitle": "",
+        "accountNumber": "",
+        "instructions": "Please configure Easypaisa instructions in the owner portal."
+      }
+    },
+    "foodMenu": [
+      {
+        "id": "food-b1",
+        "name": "Paratha (Plain / Aloo / Cheese)",
+        "category": "breakfast",
+        "price": 400,
+        "description": "Freshly prepared crispy paratha served with butter.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-b2",
+        "name": "Omelette (2 Eggs)",
+        "category": "breakfast",
+        "price": 300,
+        "description": "Classic Pakistani style or plain omelette with green chillies & coriander.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-b3",
+        "name": "Plain Yogurt",
+        "category": "breakfast",
+        "price": 380,
+        "description": "Fresh, chilled homemade plain curd/dahi.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-b4",
+        "name": "Tea / Coffee",
+        "category": "breakfast",
+        "price": 200,
+        "description": "Hot brewed traditional Karak Chai or instant coffee.",
+        "note": "Subject to owner verification before publishing",
+        "verified": false,
+        "published": true
+      },
+      {
+        "id": "food-l1",
+        "name": "Chicken Biryani with Raita",
+        "category": "lunch",
+        "price": 850,
+        "description": "Aromatic basmati rice cooked with tender chicken and authentic spices, served with fresh mint raita.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-l2",
+        "name": "Daal Chawal",
+        "category": "lunch",
+        "price": 600,
+        "description": "Comforting yellow lentils tempered with cumin, garlic and ghee, served with steamed basmati rice.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-l3",
+        "name": "Chicken Sandwich with Fries",
+        "category": "lunch",
+        "price": 1500,
+        "description": "Toasted sandwich packed with shredded chicken, mayo and herbs, served with golden potato fries.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-l4",
+        "name": "Club Sandwich with Fries",
+        "category": "lunch",
+        "price": 1500,
+        "description": "Triple-decker toasted sandwich with chicken, egg, cucumber, tomato and cheese, served with fries.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-l5",
+        "name": "Fresh Salad",
+        "category": "lunch",
+        "price": 250,
+        "description": "Crisp seasonal vegetables (cucumber, tomato, onion, lemon).",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-l6",
+        "name": "Lunch Chicken Karahi",
+        "category": "lunch",
+        "price": 0,
+        "description": "Traditional wok-cooked chicken karahi (lunch portion).",
+        "note": "Printed price is unclear; unpublished until verified by owner.",
+        "verified": false,
+        "published": false
+      },
+      {
+        "id": "food-d1",
+        "name": "Chicken Karahi with Naan / Roti",
+        "category": "dinner",
+        "price": 2500,
+        "description": "Rich tomato, ginger, garlic wok gravy cooked with chicken, served piping hot with fresh tandoori naan or roti.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-d2",
+        "name": "Chicken Biryani with Raita",
+        "category": "dinner",
+        "price": 850,
+        "description": "Fragrant layered spiced basmati rice with chicken and raita.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-d3",
+        "name": "Mutton Karahi with Naan / Roti",
+        "category": "dinner",
+        "price": 2900,
+        "description": "Succulent mutton slow-simmered in karahi spices, green chillies and fresh ginger, served with fresh naan/roti.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-d4",
+        "name": "Daal Chawal",
+        "category": "dinner",
+        "price": 600,
+        "description": "Homestyle spiced lentils served with warm steamed rice.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-d5",
+        "name": "Chicken Tikka (6 Pieces)",
+        "category": "dinner",
+        "price": 850,
+        "description": "Charcoal-grilled marinated spicy boneless chicken cubes served with mint chutney and lemon wedges.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-d6",
+        "name": "Raita",
+        "category": "dinner",
+        "price": 200,
+        "description": "Seasoned whipped yogurt with cumin and roasted herbs.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-bev1",
+        "name": "Coke",
+        "category": "beverages",
+        "price": 300,
+        "description": "Chilled 330 ml can.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-bev2",
+        "name": "Sprite",
+        "category": "beverages",
+        "price": 300,
+        "description": "Chilled 330 ml can.",
+        "verified": true,
+        "published": true
+      },
+      {
+        "id": "food-bev3",
+        "name": "Mineral Water",
+        "category": "beverages",
+        "price": 150,
+        "description": "500 ml sealed drinking water bottle.",
+        "verified": true,
+        "published": true
+      }
+    ],
+    "refreshments": [
+      {
+        "id": "ref-1",
+        "name": "Mineral Water",
+        "size": "500 ml",
+        "price": 150,
+        "unit": "each"
+      },
+      {
+        "id": "ref-2",
+        "name": "Coca-Cola Can",
+        "size": "330 ml",
+        "price": 300,
+        "unit": "each"
+      },
+      {
+        "id": "ref-3",
+        "name": "Salted Peanuts",
+        "size": "Standard pack",
+        "price": 150,
+        "unit": "per pack"
+      },
+      {
+        "id": "ref-4",
+        "name": "Lays Chips",
+        "size": "Standard pack",
+        "price": 200,
+        "unit": "per pack"
+      },
+      {
+        "id": "ref-5",
+        "name": "Chocolate",
+        "size": "Individual piece",
+        "price": 200,
+        "unit": "per piece"
+      }
+    ]
+  },
+  "contactMessages": [],
+  "admin": {
+    "username": "owner@theneststays.pk",
+    "passwordHash": "NestStays@2026"
+  },
+  "customers": [
+    {
+      "id": "cust-1793012164027-yuu9",
+      "name": "Test",
+      "phone": "03231234567",
+      "followUpStatus": "pending",
+      "tags": [
+        "Guest"
+      ],
+      "totalBookings": 1,
+      "totalSpent": 10000,
+      "lastStayCheckIn": "2026-10-27",
+      "lastStayCheckOut": "2026-10-29",
+      "bookingReferences": [
+        "TNS-ES8C42"
+      ],
+      "createdAt": "2026-10-26T10:48:52.452Z",
+      "updatedAt": "2026-10-26T10:48:52.452Z"
+    },
+    {
+      "id": "cust-1793012170272-f1ebj",
+      "name": "Tariq Mehmood",
+      "phone": "0300 1234567",
+      "followUpStatus": "pending",
+      "tags": [
+        "New Guest"
+      ],
+      "totalBookings": 1,
+      "totalSpent": 14000,
+      "lastStayCheckIn": "2026-11-20",
+      "lastStayCheckOut": "2026-11-22",
+      "bookingReferences": [
+        "TNS-Q6NZ8J"
+      ],
+      "createdAt": "2026-10-26T10:56:10.272Z",
+      "updatedAt": "2026-10-26T10:56:10.272Z"
+    }
+  ]
+}

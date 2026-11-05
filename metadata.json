@@ -1,0 +1,6 @@
+{
+  "name": "The Nest Stays - Boutique Guest House",
+  "description": "Boutique guest-house accommodation and room booking in Pakistan featuring serene mountain aesthetics, real-time availability, and transparent local payment options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
